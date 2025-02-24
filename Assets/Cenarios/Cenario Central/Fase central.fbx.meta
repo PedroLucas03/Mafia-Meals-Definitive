@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 5a93bf97bcf0afc468a43ee775363d54
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Areia_Marcador_Faixa_ Bancada Cozinha
+    second: {fileID: 2100000, guid: fa6e3c95e9c58d04e95879b7740013e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arvore Floresta.001
+    second: {fileID: 2100000, guid: 7a94b588bcb443b4e9e288e4b30f6bce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chafariz_ Farol
+    second: {fileID: 2100000, guid: 49f2d143ba45e844cbfee4cdd4424fa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu Restaurante_ Barco
+    second: {fileID: 2100000, guid: 1e76875a7ec68684bbb7eb4adcfef066, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chapeu Restaurante_ Barco.001
+    second: {fileID: 2100000, guid: 09224161c00615748b9e73308f3ab9f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Geladeira
+    second: {fileID: 2100000, guid: be9c847e84043a84d82e5455622534f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janela_ Barco
+    second: {fileID: 2100000, guid: 71ad09a6f983d5849ac4cd929510a4ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janela_ Barco.001
+    second: {fileID: 2100000, guid: c4574d26b1deddc44939e162cb3610ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas Predio_ Bancada_ Fogao
+    second: {fileID: 2100000, guid: f29103e3f48aa4d4da33956e6175c43e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas Predio_ Bancada_ Fogao.001
+    second: {fileID: 2100000, guid: 8b25530f6bd346d4e91d80f1ad5b075a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas Predio_ Telhado Cabana_ Barco_ Fogao
+    second: {fileID: 2100000, guid: 2213bc3b044aab84e810ec77fc576cb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marrom Tronco
+    second: {fileID: 2100000, guid: 3641d3fda418d0941b68b66ba622b626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marrom Tronco 3.001
+    second: {fileID: 2100000, guid: 482afbb8897adbc4aba8225252c16093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: fd73c2f3ff56ece419fa2cba7064a149, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintura Predio 2
+    second: {fileID: 2100000, guid: 913f1ca21d9c2f64e9f61754333efd90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintura Predio_ Cabana
+    second: {fileID: 2100000, guid: 5835b5109c4859e48b5ae2f4be4bacd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintura Predios 3
+    second: {fileID: 2100000, guid: a698b2f82d14d9648bfb2a00ec8294cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintura Restaurante
+    second: {fileID: 2100000, guid: ea3df32c330c84e49aa4d52d1605794c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintura Restaurante 2_ Barco
+    second: {fileID: 2100000, guid: 0311efc6b08d501439787cb7808d71a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rocha_ Tronco da Arvore.001
+    second: {fileID: 2100000, guid: 99e75a6b36ea9954c9dd247f0787691c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Terreno Mapa Tutorial_ Montanha Floresta
+    second: {fileID: 2100000, guid: 133245ee1c2cb0e448334ce58052cf7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde Arvore
+    second: {fileID: 2100000, guid: e0c0c27a3099b5a4e80451ee4af6221b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde Arvore 3.001
+    second: {fileID: 2100000, guid: f028b7ada9736204e92b85bf784e251c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde Grama_ Montanha Floresta_ Arvore Floresta_ Bancada.001
+    second: {fileID: 2100000, guid: cb5c59e2bfe4c9247beffdfb1b6f15ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde Rocha_ Terreno Floresta_ Arvore Floresta.001
+    second: {fileID: 2100000, guid: c2e04fc7b004e6a40aafcd520da47670, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rua.001
+    second: {fileID: 2100000, guid: ee662bc63465b0345ae79966639102fc, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

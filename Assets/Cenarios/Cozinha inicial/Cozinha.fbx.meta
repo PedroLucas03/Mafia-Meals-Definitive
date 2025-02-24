@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 80366215d57a57048af959cfad6c619a
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Areia_Marcador_Faixa_ Bancada Cozinha
+    second: {fileID: 2100000, guid: bc0f2fc2fe173a24aa2ff74605d48ec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Areia_Marcador_Faixa_ Bancada Cozinha.001
+    second: {fileID: 2100000, guid: 1d329000c206b5641b44ce81c472f442, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada
+    second: {fileID: 2100000, guid: 40f761da94b40864db7dbfc4aabe810e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.002
+    second: {fileID: 2100000, guid: 05c4d48104055b6489453ff28eb4c108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.003
+    second: {fileID: 2100000, guid: 8ff29810f00bb7b4db7cdbcb70a66a32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.004
+    second: {fileID: 2100000, guid: 653e6e5d0530f524b9ac367f4e2ded43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.005
+    second: {fileID: 2100000, guid: 6d2e926e0a7cda84181cc008e37b6f16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.008
+    second: {fileID: 2100000, guid: 7b5789790c19185458fbbcaf87faa281, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.009
+    second: {fileID: 2100000, guid: d278a64a5ae2fa343935f6efcc7c8782, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.011
+    second: {fileID: 2100000, guid: adbf36a86ac4e804e881fc57e3d94283, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada.012
+    second: {fileID: 2100000, guid: df140027239a321469a558822bb7cd9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada_ Pia
+    second: {fileID: 2100000, guid: 04085466b74c25247ae7e06e5cdcb2cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bancada_ Pia.001
+    second: {fileID: 2100000, guid: 2d66bcb07728dfb449e9cb4ed45a8e77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fogao
+    second: {fileID: 2100000, guid: 78fd5df208e8d74418f178d9956b0b49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fogao.001
+    second: {fileID: 2100000, guid: d12a19a0e0ccfa540b7692b8a65d0b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Geladeira
+    second: {fileID: 2100000, guid: 77423fafb5cfa11418ee63863c2668e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janela
+    second: {fileID: 2100000, guid: 6566db221dfdb484f88b5cb041938a85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janela Madeira Restaurante_Estrada_ Parede Cozinha
+    second: {fileID: 2100000, guid: f3d63a6a04a50c54cad169a8b1f6ed68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janela_ Barco
+    second: {fileID: 2100000, guid: 10d26c2159e6f1545a73c5f35b9a8ce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas Predio_ Bancada_ Fogao
+    second: {fileID: 2100000, guid: d29099adae81e404db2f306a8c917057, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas Predio_ Bancada_ Fogao.001
+    second: {fileID: 2100000, guid: 79bff23cebc2b0440bef6e7ccc8b29fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Janelas Predio_ Telhado Cabana_ Barco_ Fogao
+    second: {fileID: 2100000, guid: 5149d8bf74e80104f8e9bcd2cea64888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lixeiro
+    second: {fileID: 2100000, guid: 32a357008d634fa40b53bae72b469e9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lixeiro.001
+    second: {fileID: 2100000, guid: fcca486a8c33cd440a410cfc294f0993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madeira Restaurante_ Pia
+    second: {fileID: 2100000, guid: ce03e8fdaa2b7a347804160d9fd1178d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.026
+    second: {fileID: 2100000, guid: f78f8f38224407d4bad0589117c0ee7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.032
+    second: {fileID: 2100000, guid: b2fdc71d828f50a4eb8f40649fb6a0fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pia
+    second: {fileID: 2100000, guid: 5c18210571a1b334794e5983b07c109d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pia.001
+    second: {fileID: 2100000, guid: 36429a8ab7c7ed94c8906f8cdd2008d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso Cozinha
+    second: {fileID: 2100000, guid: abbad27242add684aad1100ecb17d2c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piso Cozinha 2_ Macaneta
+    second: {fileID: 2100000, guid: f7c85d55c725e4a46b59be03fddabfd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porta_Toldo Restaurante_ Bancada_ Prato
+    second: {fileID: 2100000, guid: 7c9ba816ffba5024e968d4ee58a6d9da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Terreno Mapa Cidade
+    second: {fileID: 2100000, guid: 1da0b75553d508240addf19d517ab97d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde Grama_ Montanha Floresta_ Arvore Floresta_ Bancada
+    second: {fileID: 2100000, guid: 7857fdac4cffd914f92579e0f4b48204, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidro Fogao
+    second: {fileID: 2100000, guid: d7619fb0f1fcd2b46a834bb45c7f805f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rua.001
+    second: {fileID: 2100000, guid: 4d2b0fbe92c91cb4f877f22cb7058935, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
