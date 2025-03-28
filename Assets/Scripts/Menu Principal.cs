@@ -12,7 +12,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void Play()
     {
-        SceneManager.LoadScene("Teste");
+        SceneManager.LoadScene("KitchenTutorial");
     }
 
     public void Options()
@@ -36,10 +36,16 @@ public class MenuPrincipal : MonoBehaviour
       
     }
 
+    public void CloseCredits()
+
+    {
+        Creditos.SetActive(false);
+        MenuInicial.SetActive(true);
+
+    }
 
     public void LeaveGame()
     {
         Application.Quit();
-
     }
 }
