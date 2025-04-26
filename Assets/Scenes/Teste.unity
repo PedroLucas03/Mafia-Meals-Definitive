@@ -259,10 +259,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectAnimator: {fileID: 0}
   animationBoolParam: isOpen
+  playerAnimator: {fileID: 0}
+  playerAnimationTrigger: 
+  holdItemBoolParam: IsHoldingItem
   customMessage: asffasfsa
   interactionSound: {fileID: 0}
   interactionUI: {fileID: 0}
   closeDelay: 1
+  itemPrefab: {fileID: 0}
+  handTransform: {fileID: 0}
+  dropForce: 3
+  countertopLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  holdPositionOffset: {x: 0.1, y: 0.1, z: 0.2}
+  holdRotationOffset: {x: 0, y: 0, z: 0}
+  dropDistance: 0.5
+  dropKey: 113
 --- !u!4 &37334818
 Transform:
   m_ObjectHideFlags: 0
@@ -1370,6 +1383,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &274344048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274344049}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274344049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274344048}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.300682, y: 12.253375, z: 21.861454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &302126169
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,10 +2230,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectAnimator: {fileID: 0}
   animationBoolParam: isOpen
+  playerAnimator: {fileID: 0}
+  playerAnimationTrigger: 
+  holdItemBoolParam: IsHoldingItem
   customMessage: asffasfsa
   interactionSound: {fileID: 0}
   interactionUI: {fileID: 0}
   closeDelay: 1
+  itemPrefab: {fileID: 0}
+  handTransform: {fileID: 0}
+  dropForce: 3
+  countertopLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  holdPositionOffset: {x: 0.1, y: 0.1, z: 0.2}
+  holdRotationOffset: {x: 0, y: 0, z: 0}
+  dropDistance: 0.5
+  dropKey: 113
 --- !u!4 &541705421
 Transform:
   m_ObjectHideFlags: 0
@@ -2587,10 +2644,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectAnimator: {fileID: 0}
   animationBoolParam: isOpen
+  playerAnimator: {fileID: 0}
+  playerAnimationTrigger: 
+  holdItemBoolParam: IsHoldingItem
   customMessage: asffasfsa
   interactionSound: {fileID: 0}
   interactionUI: {fileID: 0}
   closeDelay: 1
+  itemPrefab: {fileID: 0}
+  handTransform: {fileID: 0}
+  dropForce: 3
+  countertopLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  holdPositionOffset: {x: 0.1, y: 0.1, z: 0.2}
+  holdRotationOffset: {x: 0, y: 0, z: 0}
+  dropDistance: 0.5
+  dropKey: 113
 --- !u!4 &671552031
 Transform:
   m_ObjectHideFlags: 0
@@ -7130,10 +7200,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectAnimator: {fileID: 0}
   animationBoolParam: isOpen
+  playerAnimator: {fileID: 0}
+  playerAnimationTrigger: 
+  holdItemBoolParam: IsHoldingItem
   customMessage: asffasfsa
   interactionSound: {fileID: 0}
   interactionUI: {fileID: 0}
   closeDelay: 1
+  itemPrefab: {fileID: 0}
+  handTransform: {fileID: 0}
+  dropForce: 3
+  countertopLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  holdPositionOffset: {x: 0.1, y: 0.1, z: 0.2}
+  holdRotationOffset: {x: 0, y: 0, z: 0}
+  dropDistance: 0.5
+  dropKey: 113
 --- !u!4 &1976646206
 Transform:
   m_ObjectHideFlags: 0
@@ -8109,10 +8192,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectAnimator: {fileID: 2020787801888601080}
   animationBoolParam: isOpen
+  playerAnimator: {fileID: 0}
+  playerAnimationTrigger: 
+  holdItemBoolParam: IsHoldingItem
   customMessage: asffasfsa
   interactionSound: {fileID: 0}
   interactionUI: {fileID: 0}
   closeDelay: 1
+  itemPrefab: {fileID: 0}
+  handTransform: {fileID: 0}
+  dropForce: 3
+  countertopLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  holdPositionOffset: {x: 0.1, y: 0.1, z: 0.2}
+  holdRotationOffset: {x: 0, y: 0, z: 0}
+  dropDistance: 0.5
+  dropKey: 113
 --- !u!95 &2020787801888601080
 Animator:
   serializedVersion: 5
@@ -8640,3 +8736,4 @@ SceneRoots:
   - {fileID: 302126175}
   - {fileID: 228527642}
   - {fileID: 1815026769}
+  - {fileID: 274344049}
