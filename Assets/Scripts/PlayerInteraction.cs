@@ -1,62 +1,57 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using TMPro;
 
 public class PlayerInteraction : MonoBehaviour
 {
+    [Header("Configuração")]
     public float interactionRange = 2.0f;
     public LayerMask interactionLayer;
     public KeyCode interactionKey = KeyCode.E;
-
     public GameObject interactionUI;
     public TextMeshProUGUI interactionText;
+    public Animator playerAnimator;
 
-    private Interactable currentInteractable;
+    [Header("Debug")]
+    [SerializeField] private Interactable currentInteractable;
+    [SerializeField] private Animatable currentAnimatable;
 
     void Update()
     {
-
         Collider[] interactablesInRange = Physics.OverlapSphere(transform.position, interactionRange, interactionLayer);
 
         if (interactablesInRange.Length > 0)
         {
-
+            // Verifica Interactable primeiro
             currentInteractable = interactablesInRange[0].GetComponent<Interactable>();
-
             if (currentInteractable != null)
             {
-
+                currentInteractable.SetPlayerAnimator(playerAnimator);
                 ShowInteractionUI(true, currentInteractable.GetInteractionMessage());
-
 
                 if (Input.GetKeyDown(interactionKey))
                 {
                     currentInteractable.Interact();
                 }
+                return;
             }
-            else
+
+            // Se não encontrou Interactable, verifica Animatable
+            currentAnimatable = interactablesInRange[0].GetComponent<Animatable>();
+            if (currentAnimatable != null)
             {
+                ShowInteractionUI(true, currentAnimatable.GetInteractionMessage());
 
-                Animatable currentAnimatable = interactablesInRange[0].GetComponent<Animatable>();
-                if (currentAnimatable != null)
+                if (Input.GetKeyDown(interactionKey))
                 {
-
-                    ShowInteractionUI(true, currentAnimatable.GetInteractionMessage());
-
-
-                    if (Input.GetKeyDown(interactionKey))
-                    {
-                        currentAnimatable.Interact();
-                    }
+                    currentAnimatable.Interact();
                 }
+                return;
             }
         }
         else
         {
-
             currentInteractable = null;
+            currentAnimatable = null;
             ShowInteractionUI(false);
         }
     }
@@ -66,14 +61,12 @@ public class PlayerInteraction : MonoBehaviour
         if (interactionUI != null)
         {
             interactionUI.SetActive(state);
-
             if (state && interactionText != null)
             {
                 interactionText.text = message;
             }
         }
     }
-
 
     private void OnDrawGizmosSelected()
     {
