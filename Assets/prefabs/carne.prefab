@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 7770341530048772348}
   - component: {fileID: -2072298632185026802}
   - component: {fileID: 5335829668670921669}
-  m_Layer: 0
+  - component: {fileID: 3563266148518721184}
+  m_Layer: 8
   m_Name: carne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,3 +135,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3563266148518721184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073652797996629934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc4d14cb127b0474691ed8debd0f2d53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabReference: {fileID: 0}
