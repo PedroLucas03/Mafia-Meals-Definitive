@@ -2,25 +2,24 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    public string customMessage; // Mensagem personalizada para a interação
-    public Color newColor = Color.red; // Cor que o objeto assumirá ao interagir
+    [Header("Configuração Básica")]
+    public string customMessage;
+    public Color newColor = Color.red;
 
-    private MeshRenderer meshRenderer; // Referência ao componente MeshRenderer do objeto
-    private Color originalColor; // Cor original do objeto
+    [Header("Configuração de Animação")]
+    public Animator objectAnimator; // Animator da bancada/máquina
+    public string objectAnimationTrigger = "Cut"; // Nome do trigger da bancada
+
+    private MeshRenderer meshRenderer;
+    private Color originalColor;
+    private Animator playerAnimator; // Referência ao Animator do jogador
 
     private void Start()
     {
-        // Obtém o componente MeshRenderer do objeto
         meshRenderer = GetComponent<MeshRenderer>();
-
         if (meshRenderer != null)
         {
-            // Salva a cor original do objeto
             originalColor = meshRenderer.material.color;
-        }
-        else
-        {
-            Debug.LogWarning("MeshRenderer não encontrado no objeto!");
         }
     }
 
@@ -29,25 +28,30 @@ public class Interactable : MonoBehaviour
         return string.IsNullOrEmpty(customMessage) ? "Interagir com " + gameObject.name : customMessage;
     }
 
+    public void SetPlayerAnimator(Animator animator)
+    {
+        playerAnimator = animator;
+    }
+
     public void Interact()
     {
+        // Mudança de cor (feedback visual)
         if (meshRenderer != null)
         {
-            // Alterna entre a cor original e a nova cor
-            if (meshRenderer.material.color == originalColor)
-            {
-                meshRenderer.material.color = newColor;
-            }
-            else
-            {
-                meshRenderer.material.color = originalColor;
-            }
+            meshRenderer.material.color = (meshRenderer.material.color == originalColor) ? newColor : originalColor;
+        }
 
-            Debug.Log($"Interagiu com {gameObject.name} e mudou a cor para {meshRenderer.material.color}");
-        }
-        else
+        // Dispara animações
+        if (objectAnimator != null)
         {
-            Debug.LogWarning("MeshRenderer não encontrado no objeto!");
+            objectAnimator.SetTrigger(objectAnimationTrigger);
         }
+
+        if (playerAnimator != null)
+        {
+            playerAnimator.SetTrigger("Cutting"); // Trigger da animação do player
+        }
+
+        Debug.Log($"Interagiu com {gameObject.name}");
     }
 }
