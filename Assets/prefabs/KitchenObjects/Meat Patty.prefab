@@ -27,8 +27,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.167, y: 2.4, z: -1.015}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8794222548160461244}
   m_Father: {fileID: 0}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91aef45b4ba1990498c94bb472b39941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: a747f8b1b7c87654aa1b13d2a07766af, type: 2}
+  kitchenObjectSO: {fileID: 11400000, guid: 5a93201a321734e46816cd2bb7946dee, type: 2}
 --- !u!1001 &7524982122262489699
 PrefabInstance:
   m_ObjectHideFlags: 0

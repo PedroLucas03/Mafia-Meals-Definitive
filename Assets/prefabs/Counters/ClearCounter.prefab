@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 6856368136583841278}
   - component: {fileID: 3363661589195378846}
   m_Layer: 6
-  m_Name: ClearCounter_BACKUP
+  m_Name: ClearCounter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,7 +297,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: 7857fdac4cffd914f92579e0f4b48204, type: 2}
   - {fileID: 2100000, guid: 083d89cf88c61994ca9e2c4e93edf849, type: 2}
-  - {fileID: 2100000, guid: 0b1f0b955a0aa0e4eb6486d807587e93, type: 2}
+  - {fileID: 2100000, guid: 083d89cf88c61994ca9e2c4e93edf849, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
