@@ -6,7 +6,7 @@ public class DeliveryCounter : BaseCounter
 {
     public static DeliveryCounter Instance { get; private set; }
 
-    private void awake() {
+    private void Awake() {
         Instance = this;
     }
 
