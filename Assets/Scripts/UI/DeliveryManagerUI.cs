@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class DeliveryManagerUI : MonoBehaviour
-{
-
+public class DeliveryManagerUI : MonoBehaviour {
     [SerializeField] private Transform container;
     [SerializeField] private Transform recipeTemplate;
 
@@ -28,16 +25,17 @@ public class DeliveryManagerUI : MonoBehaviour
     }
 
     private void UpdateVisual() {
+        // Limpar os pedidos existentes
         foreach (Transform child in container) {
             if (child == recipeTemplate) continue;
             Destroy(child.gameObject);
-            }
+        }
 
+        // Instanciar os novos pedidos
         foreach (RecipeSO recipeSO in DeliveryManager.Instance.GetWaitingRecipeSOList()) {
             Transform recipeTransform = Instantiate(recipeTemplate, container);
             recipeTransform.gameObject.SetActive(true);
             recipeTransform.GetComponent<DeliveryManagerSingleUI>().SetRecipeSO(recipeSO);
-            }
         }
     }
-
+}

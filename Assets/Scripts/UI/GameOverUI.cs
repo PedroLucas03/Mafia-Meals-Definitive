@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-public class GameOverUI : MonoBehaviour
-{
+public class GameOverUI : MonoBehaviour {
     [SerializeField] private TextMeshProUGUI recipesDeliveredText;
 
     private void Start() {
@@ -17,8 +14,8 @@ public class GameOverUI : MonoBehaviour
         if (KitchenGameManager.Instance.IsGameOver()) {
             Show();
 
-            recipesDeliveredText.text = DeliveryManager.Instance.GetSuccessfulRecipesAmount().ToString();
-
+            // Atualiza o texto para exibir a pontuação do jogador
+            recipesDeliveredText.text = "PONTUAÇÃO: " + DeliveryManager.Instance.GetPlayerScore().ToString();
         }
         else {
             Hide();

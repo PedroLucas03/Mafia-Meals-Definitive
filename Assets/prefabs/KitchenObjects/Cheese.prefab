@@ -25,14 +25,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6616601074641767678}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -3.167, y: 2.521, z: -1.015}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6741991390876437975}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &523869024255566062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,6 +63,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: queijo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447723829699482977, guid: 524e9f5140be17940b9b4f6e1cc676d8,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 48.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447723829699482977, guid: 524e9f5140be17940b9b4f6e1cc676d8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 71.63162
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447723829699482977, guid: 524e9f5140be17940b9b4f6e1cc676d8,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.08331
       objectReference: {fileID: 0}
     - target: {fileID: 8447723829699482977, guid: 524e9f5140be17940b9b4f6e1cc676d8,
         type: 3}
@@ -113,6 +128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.281
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447723829699482977, guid: 524e9f5140be17940b9b4f6e1cc676d8,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

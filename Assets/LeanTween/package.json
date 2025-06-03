@@ -1,0 +1,29 @@
+{
+	"name": "com.oss.leantween",
+	"displayName": "Leantween",
+	"description": "Efficient tweening engine",
+	"keywords": [
+		"Tween",
+		"Tweening",
+		"Lerp",
+		"Animation"
+	],
+	"category": "Utility",
+	"version": "2.50.4",
+	"unity": "2018.1",
+	"dependencies": {
+		
+	},
+	"samples": [
+		{
+			"displayName": "Examples",
+			"description": "Tweening Examples",
+			"path": "Samples~/Examples"
+		},
+		{
+			"displayName": "Testing",
+			"description": "Tests",
+			"path": "Samples~/Testing"
+		}
+	]
+}
