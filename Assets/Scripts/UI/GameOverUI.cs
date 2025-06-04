@@ -2,28 +2,34 @@ using TMPro;
 using UnityEngine;
 
 public class GameOverUI : MonoBehaviour {
+
     [SerializeField] private TextMeshProUGUI recipesDeliveredText;
 
     private void Start() {
-        KitchenGameManager.Instance.OnStateChanged += KitchenGameManager_OnStateChanged;
 
+        KitchenGameManager.Instance.OnStateChanged += KitchenGameManager_OnStateChanged;
         Hide();
+
     }
 
     private void KitchenGameManager_OnStateChanged(object sender, System.EventArgs e) {
-        if (KitchenGameManager.Instance.IsGameOver()) {
-            Show();
 
-            // Atualiza o texto para exibir a pontuação do jogador
-            recipesDeliveredText.text = "PONTUAÇÃO: " + DeliveryManager.Instance.GetPlayerScore().ToString();
+        if (KitchenGameManager.Instance.IsGameOver()) {
+
+            Show();
+            // Atualiza o texto para exibir a pontuação do jogador
+
+            recipesDeliveredText.text = "PONTUAÇÃO: " + DeliveryManager.Instance.GetPlayerScore().ToString();
         }
         else {
+
             Hide();
         }
     }
 
     private void Show() {
         gameObject.SetActive(true);
+
     }
 
     private void Hide() {
