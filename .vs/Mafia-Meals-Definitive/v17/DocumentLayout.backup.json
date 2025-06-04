@@ -1,0 +1,856 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Mafia-Meals-Definitive\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|d:\\github\\mafia-meals-definitive\\assets\\scripts\\backgroundcarmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundcarmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\gangsterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gangsterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|d:\\github\\mafia-meals-definitive\\assets\\scripts\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\kitchengamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kitchengamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\scoredisplayongameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\scoredisplayongameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\optionsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\optionsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\deliveryresultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\deliveryresultui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\gameoverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\tutorialui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\tutorialui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\menu principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\resetstaticdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\resetstaticdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\gamepauseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\gamepauseui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\deliverymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deliverymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\fridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\idlenpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\idlenpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\scoreui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\deliverymanagersingleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\deliverymanagersingleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\deliverymanagerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\deliverymanagerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\cuttingcountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\cuttingcountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\cuttingcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\cuttingcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\containercounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\containercounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\deliverycounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\deliverycounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\stoveburnflashingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\stoveburnflashingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\stoveburnwarningui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\stoveburnwarningui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\stovecountersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\stovecountersound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\stovecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\stovecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\platescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\platescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\basecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\basecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\ui\\loadercallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\loadercallback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\buttoncolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttoncolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\playersounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playersounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\scriptableobjects\\audiocliprefsso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\audiocliprefsso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\clearcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\clearcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\platecompletevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platecompletevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\scriptableobjects\\recipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\recipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\scriptableobjects\\recipelistso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\recipelistso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\scriptableobjects\\cuttingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\cuttingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\kitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\platescountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\platescountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\scriptableobjects\\ihasprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\ihasprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\counters\\stovecountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\counters\\stovecountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\scriptableobjects\\burningrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\burningrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\scriptableobjects\\fryingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\fryingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|D:\\GitHub\\Mafia-Meals-Definitive\\assets\\scripts\\lookatcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16DBE116-4D30-F5AE-D7EB-1EFAC2F15413}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lookatcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAkwOIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T02:24:49.786Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BackgroundCarMover.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\BackgroundCarMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundCarMover.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\BackgroundCarMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackgroundCarMover.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T21:09:58.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GangsterAI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\GangsterAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GangsterAI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\GangsterAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GangsterAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:38:03.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeliveryResultUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\DeliveryResultUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:23:54.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameOverUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\GameOverUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameOverUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\GameOverUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\GameOverUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T02:11:09.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScoreDisplayOnGameOver.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\ScoreDisplayOnGameOver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ScoreDisplayOnGameOver.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\ScoreDisplayOnGameOver.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ScoreDisplayOnGameOver.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T02:17:33.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KitchenGameManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\KitchenGameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KitchenGameManager.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\KitchenGameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KitchenGameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:23:02.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OptionsUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\OptionsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\OptionsUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\OptionsUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\OptionsUI.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAHMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T00:50:41.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerAnimator.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlayerAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimator.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlayerAnimator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAnimator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T01:28:56.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TutorialUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\TutorialUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TutorialUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\TutorialUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TutorialUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T00:46:41.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu Principal.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Menu Principal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Principal.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Menu Principal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu Principal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T13:37:18.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PlateKitchenObject.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlateKitchenObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlateKitchenObject.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlateKitchenObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlateKitchenObject.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T23:59:08.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeliveryManagerSingleUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\DeliveryManagerSingleUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DeliveryManagerSingleUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\DeliveryManagerSingleUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\DeliveryManagerSingleUI.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:50:08.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainMenuUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenuUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T18:41:23.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GamePauseUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\GamePauseUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GamePauseUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\GamePauseUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\GamePauseUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:52:41.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResetStaticDataManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ResetStaticDataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ResetStaticDataManager.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ResetStaticDataManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ResetStaticDataManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T23:23:45.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeliveryManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\DeliveryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeliveryManager.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\DeliveryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeliveryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:57:04.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameInput.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\GameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\GameInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:35:06.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Fridge.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Fridge.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fridge.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Fridge.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fridge.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T01:12:59.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DeliveryManagerUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\DeliveryManagerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DeliveryManagerUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\DeliveryManagerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\DeliveryManagerUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T02:53:52.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScoreUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\ScoreUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ScoreUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\ScoreUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ScoreUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T17:07:19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IdleNPC.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\IdleNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IdleNPC.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\IdleNPC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IdleNPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T02:54:51.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CuttingCounterVisual.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\CuttingCounterVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\CuttingCounterVisual.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\CuttingCounterVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\CuttingCounterVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:16:45.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeliveryCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\DeliveryCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\DeliveryCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\DeliveryCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\DeliveryCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:57:22.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SoundManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\SoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManager.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\SoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundManager.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T02:16:39.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StoveCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\StoveCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\StoveCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\StoveCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\StoveCounter.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAcwMcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:02:08.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CuttingCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\CuttingCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\CuttingCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\CuttingCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\CuttingCounter.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:23:11.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ContainerCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\ContainerCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\ContainerCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\ContainerCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\ContainerCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:56:05.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StoveBurnFlashingUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\StoveBurnFlashingUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\StoveBurnFlashingUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\StoveBurnFlashingUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\StoveBurnFlashingUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T02:00:27.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "StoveBurnWarningUI.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\StoveBurnWarningUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\StoveBurnWarningUI.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\StoveBurnWarningUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\StoveBurnWarningUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T01:22:39.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "StoveCounterSound.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\StoveCounterSound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\StoveCounterSound.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\StoveCounterSound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\StoveCounterSound.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCoAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T02:57:40.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoaderCallback.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\LoaderCallback.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LoaderCallback.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\UI\\LoaderCallback.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\LoaderCallback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:11:40.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PlatesCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\PlatesCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\PlatesCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\PlatesCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\PlatesCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:06:27.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BaseCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\BaseCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\BaseCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\BaseCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\BaseCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T02:47:37.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MusicManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\MusicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T01:01:29.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TrashCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\TrashCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\TrashCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\TrashCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\TrashCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:25:33.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Loader.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Loader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Loader.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Loader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Loader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:01:11.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ButtonColor.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ButtonColor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonColor.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ButtonColor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:27:18.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AudioClipRefsSO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\AudioClipRefsSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\AudioClipRefsSO.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\AudioClipRefsSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\AudioClipRefsSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T02:23:08.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RecipeSO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\RecipeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\RecipeSO.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\RecipeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\RecipeSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:58:32.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PlayerSounds.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlayerSounds.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerSounds.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlayerSounds.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerSounds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T03:04:27.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RecipeListSO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\RecipeListSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\RecipeListSO.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\RecipeListSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\RecipeListSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T01:10:10.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PlateCompleteVisual.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlateCompleteVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlateCompleteVisual.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\PlateCompleteVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlateCompleteVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T01:15:05.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ClearCounter.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\ClearCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\ClearCounter.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\ClearCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\ClearCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:00:56.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CuttingRecipeSO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\CuttingRecipeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\CuttingRecipeSO.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\CuttingRecipeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\CuttingRecipeSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T01:32:34.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KitchenObject.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\KitchenObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KitchenObject.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\KitchenObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KitchenObject.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T23:32:34.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PlatesCounterVisual.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\PlatesCounterVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\PlatesCounterVisual.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\PlatesCounterVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\PlatesCounterVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:20:49.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IHasProgress.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\IHasProgress.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\IHasProgress.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\IHasProgress.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\IHasProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T01:31:48.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "StoveCounterVisual.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\StoveCounterVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Counters\\StoveCounterVisual.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\Counters\\StoveCounterVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Counters\\StoveCounterVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T01:14:20.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FryingRecipeSO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\FryingRecipeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\FryingRecipeSO.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\FryingRecipeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\FryingRecipeSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:03:28.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "BurningRecipeSO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\BurningRecipeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\BurningRecipeSO.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\ScriptableObjects\\BurningRecipeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\BurningRecipeSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T00:51:07.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LookAtCamera.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\LookAtCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LookAtCamera.cs",
+              "ToolTip": "D:\\GitHub\\Mafia-Meals-Definitive\\Assets\\Scripts\\LookAtCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LookAtCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:14:27.315Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
