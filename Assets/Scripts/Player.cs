@@ -1,10 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem; // Adicione este namespace
+
+// Remova o Singleton Instance, pois cada jogador terá seu próprio Player.
+// public static Player Instance { get; private set; } // Esta linha deve estar comentada ou removida
 
 public class Player : MonoBehaviour, IKitchenObjectParent {
-    public static Player Instance { get; private set; }
-
-    // Eventos
+    // Eventos (permanecem específicos para esta instância de Player)
     public event EventHandler OnPickedSomething;
     public event EventHandler OnDroppedSomething;
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
@@ -14,14 +16,21 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
 
     // Propriedades de estado
     [SerializeField] private float moveSpeed = 7f;
-    [SerializeField] private GameInput gameInput;
+    // Remova a serialização direta do gameInput, ele será injetado.
+    // [SerializeField] private GameInput gameInput; // Esta linha deve estar comentada ou removida
+    private GameInput gameInput; // Agora é privado e injetado.
+
     [SerializeField] private LayerMask counterLayerMask;
     [SerializeField] private Transform kitchenObjectHoldPoint;
+
+    // Novo: Campo para os SelectedCounterVisuals específicos deste jogador
+    // Arraste e solte os objetos de visualização de contador que pertencem a este jogador aqui no Inspector.
+    [SerializeField] private SelectedCounterVisual[] playerSpecificSelectedCounterVisuals;
+
 
     public bool IsInsideFridge { get; set; }
     public void EnterFridge() => IsInsideFridge = true;
     public void ExitFridge() => IsInsideFridge = false;
-
 
     private bool isBeingDragged = false;
     private Transform dragDestination;
@@ -33,14 +42,47 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
     private bool isHoldingAndAnimated = false;
     private bool isHostage = false;
 
-    private void Awake() {
-        if (Instance != null) Debug.LogError("There is more than one Player instance");
-        Instance = this;
-    }
-
-    private void Start() {
+    // Novo método para inicializar o jogador com seu GameInput.
+    public void Initialize(GameInput playerGameInput) {
+        gameInput = playerGameInput;
+        // Subscrever aos eventos do GameInput específico deste jogador.
         gameInput.OnInteractAction += GameInput_OnInteractAction;
         gameInput.OnInteractAlternateAction += GameInput_OnInteractAlternateAction;
+        gameInput.OnPauseAction += GameInput_OnPauseAction; // Adicione o evento de pausa aqui também
+        Debug.Log($"Player {gameObject.name} initialized with PlayerInput ID: {gameInput.GetComponent<PlayerInput>().playerIndex}");
+
+        // Inicializar os SelectedCounterVisuals associados a este jogador
+        if (playerSpecificSelectedCounterVisuals != null) {
+            foreach (SelectedCounterVisual visual in playerSpecificSelectedCounterVisuals) {
+                if (visual != null) {
+                    visual.Initialize(this); // Passa esta instância do Player para o visual
+                }
+            }
+        }
+    }
+
+    private void Awake() {
+        // Remova a verificação de Singleton. Esta parte do código deve estar comentada/removida.
+        // if (Instance != null) Debug.LogError("There is more than one Player instance");
+        // Instance = this;
+    }
+
+    // O Start() não é mais necessário aqui para subscrever o gameInput,
+    // pois a inicialização será feita via Initialize()
+    // private void Start() { } // Comentado ou Removido
+
+    private void OnDestroy() {
+        // Garanta que você desinscreva os eventos quando o Player for destruído.
+        if (gameInput != null) {
+            gameInput.OnInteractAction -= GameInput_OnInteractAction;
+            gameInput.OnInteractAlternateAction -= GameInput_OnInteractAlternateAction;
+            gameInput.OnPauseAction -= GameInput_OnPauseAction; // Desassinar o evento de pausa
+        }
+
+        // Não é necessário desinscrever os SelectedCounterVisuals daqui.
+        // O próprio SelectedCounterVisual deve lidar com sua própria destruição
+        // e o Player que ele escuta será destruído ao mesmo tempo ou antes,
+        // limpando automaticamente o evento.
     }
 
     // --- Métodos para controle de estado ---
@@ -76,6 +118,9 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
     }
 
     private void Update() {
+        // Verifique se gameInput foi inicializado antes de usá-lo
+        if (gameInput == null) return;
+
         if (isBeingDragged) {
             transform.position = Vector3.Lerp(
                 transform.position,
@@ -163,6 +208,26 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
         }
     }
 
+    private void GameInput_OnPauseAction(object sender, EventArgs e) {
+        KitchenGameManager.Instance.TogglePauseGame(); // Assumindo que você tem um método para pausar/despausar no GameManager
+    }
+
+    private void GameInput_OnInteractAction(object sender, EventArgs e) {
+        if (!KitchenGameManager.Instance.IsGamePlaying() || isHoldingAndAnimated || isHostage) return;
+
+        if (selectedCounter != null) {
+            selectedCounter.Interact(this);
+        }
+    }
+
+    private void GameInput_OnInteractAlternateAction(object sender, EventArgs e) {
+        if (!KitchenGameManager.Instance.IsGamePlaying() || isHoldingAndAnimated || isHostage) return;
+
+        if (selectedCounter != null) {
+            selectedCounter.InteractAlternate(this);
+        }
+    }
+
     // --- Métodos da interface IKitchenObjectParent ---
     public Transform GetKitchenObjectFollowTransform() {
         return kitchenObjectHoldPoint;
@@ -190,28 +255,22 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
 
     private void SetSelectedCounter(BaseCounter selectedCounter) {
         this.selectedCounter = selectedCounter;
+        // Este evento agora dispara para a instância DESTE jogador do contador selecionado.
         OnSelectedCounterChanged?.Invoke(this, new OnSelectedCounterChangedEventArgs {
             selectedCounter = selectedCounter
         });
     }
 
     public void SetVisibility(bool isVisible) {
-        GetComponent<Renderer>().enabled = isVisible;
-    }
-
-    private void GameInput_OnInteractAction(object sender, EventArgs e) {
-        if (!KitchenGameManager.Instance.IsGamePlaying() || isHoldingAndAnimated || isHostage) return;
-
-        if (selectedCounter != null) {
-            selectedCounter.Interact(this);
+        // Isso pode precisar de um GetComponentInChildren<Renderer>() se o Player tiver sub-objetos com renderers
+        Renderer playerRenderer = GetComponent<Renderer>();
+        if (playerRenderer != null) {
+            playerRenderer.enabled = isVisible;
         }
-    }
-
-    private void GameInput_OnInteractAlternateAction(object sender, EventArgs e) {
-        if (!KitchenGameManager.Instance.IsGamePlaying() || isHoldingAndAnimated || isHostage) return;
-
-        if (selectedCounter != null) {
-            selectedCounter.InteractAlternate(this);
+        else {
+            foreach (Renderer r in GetComponentsInChildren<Renderer>()) {
+                r.enabled = isVisible;
+            }
         }
     }
 

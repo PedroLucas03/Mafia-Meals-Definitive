@@ -1,58 +1,74 @@
+// GameInput.cs
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.InputSystem;
 
+// Remova o Singleton Instance, pois cada jogador terá seu próprio GameInput.
+// public static GameInput Instance { get; private set;}
+
 public class GameInput : MonoBehaviour {
 
-    private const string PLAYER_PREFS_BINDINGS = "InputBindings";
-    public static GameInput Instance { get; private set;}
+    // A constante PLAYER_PREFS_BINDINGS não é mais usada aqui, pois o BindingManager cuida disso.
+    // private const string PLAYER_PREFS_BINDINGS = "InputBindings";
 
+    // Eventos (agora serão disparados pela instância específica de GameInput do jogador)
     public event EventHandler OnInteractAction;
     public event EventHandler OnInteractAlternateAction;
     public event EventHandler OnPauseAction;
-    public event EventHandler OnBindingRebind;
-
-    public enum Binding {
-        Move_Up, 
-        Move_Down, 
-        Move_Left, 
-        Move_Right,
-        Interact,
-        InteractAlternate,
-        Pause,
-        Gamepad_Interact,
-        Gamepad_InteractAlternate,
-        Gamepad_Pause
-    }
+    // O evento OnBindingRebind será disparado pelo BindingManager.
+    // public event EventHandler OnBindingRebind;
 
     private PlayerInputActions playerInputActions;
+    private PlayerInput playerInput; // Referência ao PlayerInput que gerencia este GameInput.
 
-    private void Awake() {
-        Instance = this;
+    // Novo método para inicializar este GameInput, chamado pelo PlayerSpawner.
+    public void Initialize(PlayerInput input) {
+        playerInput = input;
+        playerInputActions = new PlayerInputActions();
 
-        playerInputActions  = new PlayerInputActions();
-        playerInputActions.Player.Enable();
+        // Carregar os overrides de binding do BindingManager global.
+        // Isso garante que cada jogador use os bindings que foram definidos globalmente.
+        if (BindingManager.Instance != null) {
+            playerInputActions.LoadBindingOverridesFromJson(BindingManager.Instance.globalPlayerInputActions.SaveBindingOverridesAsJson());
+        }
 
+        playerInputActions.Player.Enable(); // Habilitar as ações para este jogador.
+
+        // Assinar os eventos de input para esta instância de GameInput.
         playerInputActions.Player.Interact.performed += Interact_performed;
         playerInputActions.Player.InteractAlternate.performed += InteractAlternate_performed;
         playerInputActions.Player.Pause.performed += Pause_performed;
 
-        if (PlayerPrefs.HasKey(PLAYER_PREFS_BINDINGS)) { 
-            playerInputActions.LoadBindingOverridesFromJson(PlayerPrefs.GetString(PLAYER_PREFS_BINDINGS));
+        // Se o BindingManager existe, subscreva ao seu evento de rebind
+        // para que esta instância de GameInput possa atualizar seus próprios bindings.
+        if (BindingManager.Instance != null) {
+            BindingManager.Instance.OnBindingRebind += BindingManager_OnBindingRebind;
         }
+    }
 
+    private void BindingManager_OnBindingRebind(object sender, EventArgs e) {
+        // Quando os bindings globais são remapeados, recarregue-os nesta instância.
+        if (BindingManager.Instance != null) {
+            playerInputActions.LoadBindingOverridesFromJson(BindingManager.Instance.globalPlayerInputActions.SaveBindingOverridesAsJson());
+        }
     }
 
     private void OnDestroy() {
-        playerInputActions.Player.Interact.performed -= Interact_performed;
-        playerInputActions.Player.InteractAlternate.performed -= InteractAlternate_performed;
-        playerInputActions.Player.Pause.performed -= Pause_performed;
-
-        playerInputActions.Dispose();
-
+        // Desassinar os eventos quando o GameInput for destruído.
+        if (playerInputActions != null) {
+            playerInputActions.Player.Interact.performed -= Interact_performed;
+            playerInputActions.Player.InteractAlternate.performed -= InteractAlternate_performed;
+            playerInputActions.Player.Pause.performed -= Pause_performed;
+            playerInputActions.Dispose();
+        }
+        // Desassinar o evento do BindingManager.
+        if (BindingManager.Instance != null) {
+            BindingManager.Instance.OnBindingRebind -= BindingManager_OnBindingRebind;
+        }
     }
+
     private void Pause_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj) {
         OnPauseAction?.Invoke(this, EventArgs.Empty);
     }
@@ -66,103 +82,21 @@ public class GameInput : MonoBehaviour {
     }
 
     public Vector2 GetMovementVectorNormalized() {
-        Vector2 inputVector = playerInputActions.Player.Move.ReadValue<Vector2>();
-
-        inputVector = inputVector.normalized;
-
-
-
-        return inputVector;
+        // Lê o valor do input diretamente das ações.
+        return playerInputActions.Player.Move.ReadValue<Vector2>().normalized;
     }
 
+    // Este método não é mais usado para obter o texto de exibição, pois o BindingManager faz isso.
+    // Ele pode ser removido ou adaptado se você precisar de uma versão específica por jogador.
+    // No entanto, para consistência, a UI deve chamar o BindingManager.
     public string GetBindingText(Binding binding) {
-        switch (binding) { 
-            default:
-            case Binding.Move_Up:
-                return playerInputActions.Player.Move.bindings[1].ToDisplayString();
-            case Binding.Move_Down:
-                return playerInputActions.Player.Move.bindings[2].ToDisplayString();
-            case Binding.Move_Left:
-                return playerInputActions.Player.Move.bindings[4].ToDisplayString();
-            case Binding.Move_Right:
-                return playerInputActions.Player.Move.bindings[3].ToDisplayString();
-            case Binding.Interact:
-                return playerInputActions.Player.Interact.bindings[0].ToDisplayString();
-            case Binding.InteractAlternate:
-                return playerInputActions.Player.InteractAlternate.bindings[0].ToDisplayString();
-            case Binding.Pause:
-                return playerInputActions.Player.Pause.bindings[0].ToDisplayString();
-            case Binding.Gamepad_Interact:
-                return playerInputActions.Player.Interact.bindings[1].ToDisplayString();
-            case Binding.Gamepad_InteractAlternate:
-                return playerInputActions.Player.InteractAlternate.bindings[1].ToDisplayString();
-            case Binding.Gamepad_Pause:
-                return playerInputActions.Player.Pause.bindings[1].ToDisplayString();
-        }
+        // Você pode retornar o texto do BindingManager aqui ou deixar a UI chamar o BindingManager diretamente.
+        // Para simplificar e evitar redundância, é melhor que a UI chame o BindingManager.
+        // Se você precisar, pode retornar string.Empty ou lançar uma exceção.
+        Debug.LogWarning("GameInput.GetBindingText é obsoleto. Use BindingManager.Instance.GetBindingText.");
+        return string.Empty; // Ou você pode redirecionar para o BindingManager.Instance.GetBindingText(binding);
     }
 
-    public void RebindBinding(Binding binding, Action onActionRebound) {
-        playerInputActions.Player.Disable();
-
-        InputAction inputAction;
-        int bindingIndex;
-
-        switch (binding) {
-            default :
-            case Binding.Move_Up:
-                inputAction = playerInputActions.Player.Move;
-                bindingIndex = 1;
-                break;
-            case Binding.Move_Down:
-                inputAction = playerInputActions.Player.Move;
-                bindingIndex = 2;
-                break;
-            case Binding.Move_Left:
-                inputAction = playerInputActions.Player.Move;
-                bindingIndex = 4;
-                break;
-            case Binding.Move_Right:
-                inputAction = playerInputActions.Player.Move;
-                bindingIndex = 3;
-                break;
-            case Binding.Interact:
-                inputAction = playerInputActions.Player.Interact;
-                bindingIndex = 0;
-                break;
-            case Binding.InteractAlternate:
-                inputAction = playerInputActions.Player.InteractAlternate;
-                bindingIndex = 0;
-                break;
-            case Binding.Pause:
-                inputAction = playerInputActions.Player.Pause;
-                bindingIndex = 0;
-                break;
-            case Binding.Gamepad_Interact:
-                inputAction = playerInputActions.Player.Interact;
-                bindingIndex = 1;
-                break;
-            case Binding.Gamepad_InteractAlternate:
-                inputAction = playerInputActions.Player.InteractAlternate;
-                bindingIndex = 1;
-                break;
-            case Binding.Gamepad_Pause:
-                inputAction = playerInputActions.Player.Pause;
-                bindingIndex = 1;
-                break;
-        }
-
-        inputAction.PerformInteractiveRebinding(bindingIndex)
-            .OnComplete(callback => {
-                callback.Dispose();
-                playerInputActions.Player.Enable();
-                onActionRebound();
-
-                PlayerPrefs.SetString(PLAYER_PREFS_BINDINGS, playerInputActions.SaveBindingOverridesAsJson());
-                PlayerPrefs.Save();
-
-                OnBindingRebind?.Invoke(this, EventArgs.Empty);
-            })
-            .Start();
-
-    }
+    // O método RebindBinding foi movido para BindingManager.
+    // public void RebindBinding(Binding binding, Action onActionRebound) { ... }
 }

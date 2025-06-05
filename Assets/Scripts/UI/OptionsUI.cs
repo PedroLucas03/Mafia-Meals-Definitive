@@ -1,16 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System;
-public class OptionsUI : MonoBehaviour
-{
-    public static OptionsUI Instance {  get; private set; }
+using System; // Required for Action
 
-    [SerializeField] private Button soundEffectsButton;
-    [SerializeField] private Button musicButton;
-    [SerializeField] private Button closeButton;
+public class OptionsUI : MonoBehaviour {
+
+    public static OptionsUI Instance { get; private set; }
+
     [SerializeField] private Button moveUpButton;
     [SerializeField] private Button moveDownButton;
     [SerializeField] private Button moveLeftButton;
@@ -21,105 +17,96 @@ public class OptionsUI : MonoBehaviour
     [SerializeField] private Button gamepadInteractButton;
     [SerializeField] private Button gamepadInteractAlternateButton;
     [SerializeField] private Button gamepadPauseButton;
-    [SerializeField] private TextMeshProUGUI soundEffectsText;
-    [SerializeField] private TextMeshProUGUI musicText;
-    [SerializeField] private TextMeshProUGUI moveUpText;
-    [SerializeField] private TextMeshProUGUI moveDownText;
-    [SerializeField] private TextMeshProUGUI moveLeftText;
-    [SerializeField] private TextMeshProUGUI moveRightText;
-    [SerializeField] private TextMeshProUGUI interactText;
-    [SerializeField] private TextMeshProUGUI interactAlternateText;
-    [SerializeField] private TextMeshProUGUI pauseText;
-    [SerializeField] private TextMeshProUGUI gamepadInteractText;
-    [SerializeField] private TextMeshProUGUI gamepadInteractAlternateText;
-    [SerializeField] private TextMeshProUGUI gamepadPauseText;
+    [SerializeField] private Button closeButton;
+
     [SerializeField] private Transform pressToRebindKeyTransform;
 
-    private Action onCloseButtonAction;
+    private Action onCloseCallback; // To store the callback when OptionsUI is closed
+
     private void Awake() {
         Instance = this;
 
-        soundEffectsButton.onClick.AddListener(() => {
-            SoundManager.Instance.ChangeVolume();
-            UpdateVisual();
-        });
-        musicButton.onClick.AddListener(() => {
-            MusicManager.Instance.ChangeVolume();
-            UpdateVisual();
-        });
+        moveUpButton.onClick.AddListener(() => RebindBinding(Binding.Move_Up));
+        moveDownButton.onClick.AddListener(() => RebindBinding(Binding.Move_Down));
+        moveLeftButton.onClick.AddListener(() => RebindBinding(Binding.Move_Left));
+        moveRightButton.onClick.AddListener(() => RebindBinding(Binding.Move_Right));
+        interactButton.onClick.AddListener(() => RebindBinding(Binding.Interact));
+        interactAlternateButton.onClick.AddListener(() => RebindBinding(Binding.InteractAlternate));
+        pauseButton.onClick.AddListener(() => RebindBinding(Binding.Pause));
+        gamepadInteractButton.onClick.AddListener(() => RebindBinding(Binding.Gamepad_Interact));
+        gamepadInteractAlternateButton.onClick.AddListener(() => RebindBinding(Binding.Gamepad_InteractAlternate));
+        gamepadPauseButton.onClick.AddListener(() => RebindBinding(Binding.Gamepad_Pause));
+
+        // When the close button is clicked, hide and invoke the callback
         closeButton.onClick.AddListener(() => {
             Hide();
+            onCloseCallback?.Invoke(); // Invoke the stored callback
         });
-
-        closeButton.onClick.AddListener(() => {
-            Hide();
-            onCloseButtonAction();
-        });
-
-        moveUpButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Move_Up); });
-        moveDownButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Move_Down); });
-        moveLeftButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Move_Left); });
-        moveRightButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Move_Right); });
-        interactButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Interact); });
-        interactAlternateButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.InteractAlternate); });
-        pauseButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Pause); });
-        gamepadInteractButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Gamepad_Interact); });
-        gamepadInteractAlternateButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Gamepad_InteractAlternate); });
-        gamepadPauseButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.Gamepad_Pause); });
-
     }
+
     private void Start() {
-        KitchenGameManager.Instance.OnGameUnpaused += KitchenGameManager_OnGameUnpaused;
+        if (BindingManager.Instance != null) {
+            BindingManager.Instance.OnBindingRebind += BindingManager_OnBindingRebind;
+        }
 
         UpdateVisual();
-
-        HidePressToRebindKey();
-        Hide();
+        Hide(); // Hide initially
     }
 
-    private void KitchenGameManager_OnGameUnpaused(object sender, System.EventArgs e) {
-        Hide();
+    private void OnDestroy() {
+        if (BindingManager.Instance != null) {
+            BindingManager.Instance.OnBindingRebind -= BindingManager_OnBindingRebind;
+        }
+    }
+
+    private void BindingManager_OnBindingRebind(object sender, EventArgs e) {
+        UpdateVisual();
     }
 
     private void UpdateVisual() {
-        soundEffectsText.text = "Sound Effects: " + Mathf.Round(SoundManager.Instance.GetVolume() * 10f);
-        musicText.text = "Music:" + Mathf.Round(MusicManager.Instance.GetVolume() * 10f);
-
-        moveUpText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Move_Up);
-        moveDownText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Move_Down);
-        moveLeftText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Move_Left);
-        moveRightText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Move_Right);
-        interactText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Interact);
-        interactAlternateText.text = GameInput.Instance.GetBindingText(GameInput.Binding.InteractAlternate);
-        pauseText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Pause);
-        gamepadInteractText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Gamepad_Interact);
-        gamepadInteractAlternateText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Gamepad_InteractAlternate);
-        gamepadPauseText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Gamepad_Pause);
+        if (BindingManager.Instance != null) {
+            moveUpButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Move_Up);
+            moveDownButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Move_Down);
+            moveLeftButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Move_Left);
+            moveRightButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Move_Right);
+            interactButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Interact);
+            interactAlternateButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.InteractAlternate);
+            pauseButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Pause);
+            gamepadInteractButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Gamepad_Interact);
+            gamepadInteractAlternateButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Gamepad_InteractAlternate);
+            gamepadPauseButton.GetComponentInChildren<TextMeshProUGUI>().text = BindingManager.Instance.GetBindingText(Binding.Gamepad_Pause);
+        }
     }
 
-    public void Show(Action onCloseButtonAction) {
-        this.onCloseButtonAction = onCloseButtonAction;
-
+    // Make Show public and accept an Action callback
+    public void Show(Action callback = null) {
+        this.onCloseCallback = callback; // Store the callback
         gameObject.SetActive(true);
-
-        soundEffectsButton.Select();
     }
-    public void Hide() {
+
+    private void Hide() {
         gameObject.SetActive(false);
     }
 
-    private void ShowPressToRebindKey() {
+    public void ShowPressToRebindKey() {
+        // This method also needs to be public if called from external UIs,
+        // but typically it's only called internally by RebindBinding.
+        // If it's only called internally, you don't need to change its access.
+        // Assuming it's only called by RebindBinding internally, keeping it private is fine.
         pressToRebindKeyTransform.gameObject.SetActive(true);
     }
-    private void HidePressToRebindKey() {
-        pressToRebindKeyTransform.gameObject.SetActive(false);
+
+    private void RebindBinding(Binding binding) {
+        ShowPressToRebindKey();
+        if (BindingManager.Instance != null) {
+            BindingManager.Instance.RebindBinding(binding, () => {
+                HidePressToRebindKey();
+                UpdateVisual();
+            });
+        }
     }
 
-    private void RebindBinding(GameInput.Binding binding) { 
-        ShowPressToRebindKey();
-        GameInput.Instance.RebindBinding(binding, () => {
-            HidePressToRebindKey();
-            UpdateVisual();
-            });
+    private void HidePressToRebindKey() {
+        pressToRebindKeyTransform.gameObject.SetActive(false);
     }
 }
