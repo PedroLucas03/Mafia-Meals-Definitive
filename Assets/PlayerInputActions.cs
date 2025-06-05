@@ -125,7 +125,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""id"": ""9bf76b35-3e24-4f24-a0c8-2e1cdc90caa4"",
                     ""path"": ""<XInputController>/leftStick"",
                     ""interactions"": """",
-                    ""processors"": ""InvertVector2,StickDeadzone(min=0.5)"",
+                    ""processors"": ""InvertVector2(invertY=false),StickDeadzone(min=0.5)"",
                     ""groups"": """",
                     ""action"": ""Move"",
                     ""isComposite"": false,

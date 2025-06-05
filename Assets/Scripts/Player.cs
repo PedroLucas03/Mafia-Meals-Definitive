@@ -77,7 +77,6 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
 
     private void Update() {
         if (isBeingDragged) {
-            // Suaviza o movimento do jogador sendo arrastado
             transform.position = Vector3.Lerp(
                 transform.position,
                 dragDestination.position,
@@ -95,14 +94,14 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
     }
 
     private void HandleMovement() {
-
         if (isHoldingAndAnimated || isHostage) {
             isWalking = false;
             return;
         }
 
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
-        Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
+        // AQUI ESTÁ A MUDANÇA: Inverter o sinal do inputVector.y
+        Vector3 moveDir = new Vector3(inputVector.x, 0f, -inputVector.y); // <-- INVERTER O SINAL AQUI!
 
         float playerRadius = .7f;
         float playerHeight = 2f;
@@ -110,7 +109,6 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
         bool canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDir, moveDistance);
 
         if (!canMove) {
-            // Tentativa de movimento na horizontal
             Vector3 moveDirX = new Vector3(moveDir.x, 0, 0).normalized;
             canMove = moveDir.x != 0 && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirX, moveDistance);
 
@@ -118,7 +116,6 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
                 moveDir = moveDirX;
             }
             else {
-                // Tentativa de movimento na vertical
                 Vector3 moveDirZ = new Vector3(0, 0, moveDir.z).normalized;
                 canMove = moveDir.z != 0 && !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirZ, moveDistance);
 
@@ -144,7 +141,7 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
         if (isHoldingAndAnimated || isHostage) return;
 
         Vector2 inputVector = gameInput.GetMovementVectorNormalized();
-        Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
+        Vector3 moveDir = new Vector3(inputVector.x, 0f, -inputVector.y); // <-- Considerar inverter aqui também para a direção de interação
 
         if (moveDir != Vector3.zero) {
             lastInteractDir = moveDir;
@@ -199,12 +196,9 @@ public class Player : MonoBehaviour, IKitchenObjectParent {
     }
 
     public void SetVisibility(bool isVisible) {
-        GetComponent<Renderer>().enabled = isVisible; // Desliga/renderização
-        // Ou: usar um efeito de transparência (ex: shader de "invisível")
+        GetComponent<Renderer>().enabled = isVisible;
     }
 
-
-    // --- Interação com counters ---
     private void GameInput_OnInteractAction(object sender, EventArgs e) {
         if (!KitchenGameManager.Instance.IsGamePlaying() || isHoldingAndAnimated || isHostage) return;
 
